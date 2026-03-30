@@ -6,10 +6,7 @@ import PortfolioArea from "@/components/(home)/portfolio-area";
 import Experience from "@/components/(home)/experience";
 import Education from "@/components/(home)/education";
 import SkillArea from "@/components/(home)/skill-area";
-import ServiceArea from "@/components/(home)/service-area";
-import Testimonial from "@/components/(home)/testimonial";
 import Branding from "@/components/(home)/branding";
-import BlogArea from "@/components/(home)/blog-area";
 import Footer from "@/components/footer/footer";
 import Contact from "@/components/(home)/contact";
 
