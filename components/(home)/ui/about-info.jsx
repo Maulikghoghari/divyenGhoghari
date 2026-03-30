@@ -12,7 +12,7 @@ export default function AboutInfo() {
                 </div>
             </div>
             <p className="mb-25">
-                Hi, I&apos;m Divyen! I am a passionate Android Developer dedicated to building performant, user-centric, and robust mobile applications. With strong expertise in modern Android development (Kotlin, MVVM, Jetpack Compose), I transform ideas into seamless digital experiences.
+                Hi, I'm Divyen! I am a passionate Android Developer dedicated to building performant, user-centric, and robust mobile applications. With strong expertise in modern Android development (Kotlin, MVVM, Jetpack Compose), I transform ideas into seamless digital experiences.
             </p>
             <p>Ready to build something amazing together?</p>
             <div className="about-info-wrapper pt-25 pb-20 mt-25">
