@@ -848,6 +848,29 @@
     .slider-height {
         min-height: 800px;
     }
+
+    /* Hero mobile: text start karo header se 20px niche */
+    .hero-text-col {
+        align-items: flex-start !important;
+        align-self: flex-start !important;
+    }
+    .hero-text-col .slider-content {
+        margin-top: 90px !important; /* header ~70px + 20px gap */
+        margin-bottom: 20px !important;
+    }
+
+    /* Hero mobile: image adha dikhao */
+    .hero-img-col {
+        max-height: 50vh;
+        overflow: hidden;
+        align-self: flex-end !important;
+    }
+    .hero-img-col .slider-img img {
+        max-height: 50vh !important;
+        min-height: unset !important;
+        object-position: top center !important;
+        width: 100% !important;
+    }
     .slider-img {
         padding-left: 0;
     }

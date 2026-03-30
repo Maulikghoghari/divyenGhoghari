@@ -9,7 +9,6 @@ import Experience from "@/components/(home)/experience";
 import Education from "@/components/(home)/education";
 import SkillArea from "@/components/(home)/skill-area";
 import ServiceArea from "@/components/(home)/service-area";
-import Pricing from "@/components/(home)/pricing";
 import Testimonial from "@/components/(home)/testimonial";
 import Branding from "@/components/(home)/branding";
 import BlogArea from "@/components/(home)/blog-area";
@@ -30,7 +29,6 @@ export default function Home() {
             <Education />
             <SkillArea />
             <ServiceArea />
-            <Pricing />
             <Testimonial />
             <Branding />
             <Contact />

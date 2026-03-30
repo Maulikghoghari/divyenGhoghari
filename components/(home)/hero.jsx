@@ -43,10 +43,10 @@ export default function Hero() {
                         src="/images/shape/shape4.png"
                     />
                 </div>
-                <div className="container slider-height d-flex align-items-stretch">
+                <div className="container slider-height d-flex align-item-center justify-content-center">
                     <div className="row justify-content-center align-items-stretch w-100">
                         {/* Text Content */}
-                        <div className="col-xl-5 col-lg-6 col-md-12 col-sm-12 col-12 d-flex align-items-center justify-content-center justify-content-lg-start order-2 order-lg-1" style={{ alignSelf: "center" }}>
+                        <div className="col-xl-5 col-lg-6 col-md-12 col-sm-12 col-12 d-flex align-items-center justify-content-center justify-content-lg-start order-1 order-lg-1 hero-text-col" style={{ alignSelf: "center" }}>
                             <div className="slider-wrapper">
                                 <div
                                     className="slider-content text-center text-lg-left position-relative z-index11"
@@ -91,23 +91,24 @@ export default function Hero() {
                             </div>
                         </div>
                         {/* Hero Image */}
-                        <div className="col-xl-7 col-lg-6 col-md-8 col-sm-10 col-10 d-flex justify-content-center align-items-end order-1 order-lg-2" style={{ alignSelf: "flex-end" }}>
+                        {/* Hero Image */}
+                        <div className="col-xl-7 col-lg-6 col-md-10 col-sm-12 col-12 d-flex justify-content-center align-items-end order-2 order-lg-2 hero-img-col" style={{ alignSelf: "flex-end" }}>
                             <div
                                 className="slider-img position-relative z-index1"
-                                style={{ paddingLeft: "0", display: "flex", alignItems: "flex-end" }}
+                                style={{ display: "flex", alignItems: "flex-end", width: "100%", justifyContent: "center" }}
                                 data-aos="fade-left"
                                 data-aos-duration={2200}
                             >
                                 <Image
-                                    height={950}
-                                    width={800}
+                                    height={1100}
+                                    width={850}
                                     src="/images/slider/person.png"
                                     alt="hero image"
                                     style={{
                                         width: "100%",
                                         height: "auto",
-                                        maxHeight: "95vh",
-                                        minHeight: "500px",
+                                        maxHeight: "92vh",
+                                        minHeight: "450px",
                                         objectFit: "contain",
                                         objectPosition: "bottom center",
                                         display: "block",
