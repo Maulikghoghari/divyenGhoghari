@@ -56,7 +56,7 @@ export default function Hero() {
                                 >
                                     <h1 className="mb-15 white-text">
                                         <span className="sub-heading d-block text-uppercase theme-color mb-0">
-                                            Hello I'm
+                                            Hello I&apos;m
                                         </span>
                                         Divyen Ghoghari
                                     </h1>
