@@ -31,14 +31,7 @@ export default function Header1() {
                             <div className="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-5">
                                 <div className="logo mt-50 mb-50 transition5">
                                     <Link className="header-logo" href="/">
-                                        <Image
-                                            height={46}
-                                            width={201}
-                                            src="/images/logo/logo.png"
-                                            alt="THAMES"
-                                            className="h-100 w-auto"
-                                            priority
-                                        />
+                                        DG
                                     </Link>
                                 </div>
                             </div>

@@ -14,10 +14,10 @@ export default function BlogArea() {
             <div className="marquee-w mb-45">
                 <div className="marquee">
                     <span className="pl-4">
-                        Senior Website Developer from New York *
+                        Senior Android Apps Developer from India *
                     </span>
                     <span className="pl-4">
-                        Senior Website Developer from New York *
+                        Senior Android Apps Developer from India *
                     </span>
                 </div>
             </div>

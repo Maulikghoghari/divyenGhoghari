@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Tilt } from "react-tilt";
 import AboutInfo from "./ui/about-info";
+import aboutImg from "@/public/images/about/about-img.jpeg";
 
 const defaultOptions = {
     reverse: false,
@@ -45,7 +46,7 @@ export default function About() {
                                                     width="0"
                                                     sizes="100vw"
                                                     className="border-radius10 position-relative z-index11 h-100 w-100"
-                                                    src="/images/about/about-img.jpg"
+                                                    src={aboutImg}
                                                     alt="about image 1"
                                                 />
                                             </Tilt>
@@ -99,7 +100,7 @@ export default function About() {
                 </div>
                 <div className="about-text-style position-absolute d-none d-md-inline-block">
                     <span className="d-inline-block section-text-color">
-                        Smith
+                        Divyen
                     </span>
                 </div>
                 <div className="about-icon position-absolute d-none d-md-inline-block z-index1 zoom-animation">

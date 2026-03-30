@@ -1,55 +1,52 @@
 export const introFeature = [
     {
         iconUrl: "/images/icon/intro-ft-icon1.png",
-        title: "Dedication",
+        title: "Performance Driven",
         description:
-            "Seaque ipsa quae ab illo inven tore veritatis et qua si architecto beatae atis et sopno vitae.",
+            "Writing clean, optimized, and bug-free code to deliver lightning-fast applications with smooth 60fps performance.",
     },
     {
         iconUrl: "/images/icon/intro-ft-icon2.png",
-        title: "Dedication",
+        title: "Clean Architecture",
         description:
-            "Seaque ipsa quae ab illo inven tore veritatis et qua si architecto beatae atis et sopno vitae.",
+            "Building highly scalable and maintainable Android apps using modern patterns like MVVM, Kotlin Coroutines, and Jetpack components.",
     },
     {
         iconUrl: "/images/icon/intro-ft-icon3.png",
-        title: "Dedication",
+        title: "User-Centric Design",
         description:
-            "Seaque ipsa quae ab illo inven tore veritatis et qua si architecto beatae atis et sopno vitae.",
+            "Focusing on intuitive UI/UX, prioritizing the end-user journey while strictly following Material Design guidelines.",
     },
     {
         iconUrl: "/images/icon/intro-ft-icon4.png",
-        title: "Dedication",
+        title: "Modular Development",
         description:
-            "Seaque ipsa quae ab illo inven tore veritatis et qua si architecto beatae atis et sopno vitae.",
+            "Creating flexible and highly reusable UI components and modules for seamless integration and future scalability.",
     },
 ];
 
 export const portfolioArea = [
     {
-        title: "Web Design",
-        description: "Software Design for QuboHub",
-        imgUrl: "/images/portfolio/port-img1.jpg",
-        imgLargeUrl: "/images/portfolio/port-img1-large.jpg",
-    },
-    {
-        title: "Development",
-        description: "Website Development for ABC Corporation",
+        title: "Android App",
+        description: "Hide Pictures & Videos Vault",
         imgUrl: "/images/portfolio/port-img2.jpg",
-        imgLargeUrl: "/images/portfolio/port-img2-large.jpg",
+        imgLargeUrl: "/images/portfolio/port-img2.jpg",
+        link: "https://play.google.com/store/apps/details?id=gallery.hidepictures.photovault.lockgallery&hl=en_IN",
     },
     {
-        title: "Branding",
-        description: "Branding for Easy Computers",
+        title: "Android App",
+        description: "PGPN PRO Application",
         imgUrl: "/images/portfolio/port-img3.jpg",
         imgLargeUrl: "/images/portfolio/port-img3-large.jpg",
+        link: "https://play.google.com/store/search?q=PGPN%20PRO&c=apps&hl=en_IN",
     },
     {
-        title: "Photography",
-        description: "Security Analysis for QuboHub",
-        imgUrl: "/images/portfolio/port-img4.jpg",
-        imgLargeUrl: "/images/portfolio/port-img4-large.jpg",
-    },
+        title: "UI/UX Design",
+        description: "Routine App Wireframes (Figma)",
+        imgUrl: "/images/portfolio/port-img1.jpg",
+        imgLargeUrl: "/images/portfolio/port-img1-large.jpg",
+        link: "https://www.figma.com/design/Gx99nTyJHl1RKciKuaxky4/Routine-App-Wireframes--Copy-?node-id=328-2833&t=CUg7yCdCqOUKwRnd-0",
+    }
 ];
 
 export const experience = [

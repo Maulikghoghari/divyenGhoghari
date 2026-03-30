@@ -12,15 +12,11 @@ export default [
         path: "works",
     },
     {
-        name: "Service",
-        path: "service",
+        name: "Skills",
+        path: "skills",
     },
     {
         name: "Contact",
         path: "contact",
-    },
-    {
-        name: "Blog",
-        path: "blog",
     },
 ];
