@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 
 const tags = [
     {
-        name: "Web Design",
+        name: "App Design",
         path: "/",
     },
     {
@@ -86,40 +86,17 @@ export default function PortfolioLineModal() {
                                 <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
                                     <div className="content-wrapper">
                                         <h2 className="modal-title">
-                                            QuboHub Custom CMS
+                                            {portfolioInfo?.description || "Project Name"}
                                         </h2>
-                                        <p>
-                                            Duis aute irure dolor in
-                                            reprehenderit in voluptate velit
-                                            esse cillum dolore eu fugiat nulla
-                                            pariatur. Lorem ipsum dolor sit
-                                            amet, consectetur adipisicing elit,
-                                            sed do eiusmod tempor incididunt ut
-                                            labore et dolore magna aliqua. Ut
-                                            enim ad minim veniam, quis nostrud
-                                            exercitation ullamco laboris nisi ut
-                                            aliquip ex ea commodo consequat.
-                                            Excepteur sint occaecat cupidatat
-                                            non proident, sunt in culpa qui
-                                            officia deserunt mollit anim id est
-                                            laborum.
-                                        </p>
-                                        <p>
-                                            Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit.
-                                            Dignissimos laudantium fuga
-                                            molestiae, aut eius minus
-                                            reprehenderit.
-                                        </p>
-                                        <p className="mb-0">
-                                            Duis aute irure dolor in
-                                            reprehenderit in voluptate velit
-                                            esse cillum dolore eu fugiat nulla
-                                            pariatur. Excepteur sint occaecat
-                                            cupidatat non proident, sunt in
-                                            culpa qui officia deserunt mollit
-                                            anim id est laborum.
-                                        </p>
+                                        {portfolioInfo?.details ? (
+                                            portfolioInfo.details.map((text, i, arr) => (
+                                                <p key={i} className={i === arr.length - 1 ? "mb-0" : ""}>
+                                                    {text}
+                                                </p>
+                                            ))
+                                        ) : (
+                                            <p className="mb-0">No details available.</p>
+                                        )}
                                     </div>
                                 </div>
                                 {/* /col */}
@@ -133,36 +110,27 @@ export default function PortfolioLineModal() {
                                                 </span>
                                             </li>
                                             <li>
-                                                Clien :
-                                                <span className="pl-2 openS-font-family">
-                                                    Juwel Khan
-                                                </span>
-                                            </li>
-                                            <li>
                                                 Duration :
                                                 <span className="pl-2 openS-font-family">
-                                                    2 Weeks
+                                                    {portfolioInfo?.duration || "N/A"}
                                                 </span>
                                             </li>
                                             <li>
                                                 Task :
                                                 <span className="pl-2 openS-font-family">
-                                                    UI/UX, Frontend
-                                                </span>
-                                            </li>
-                                            <li>
-                                                Budget :
-                                                <span className="pl-2 openS-font-family">
-                                                    $2000
+                                                    {portfolioInfo?.task || "N/A"}
                                                 </span>
                                             </li>
                                         </ul>
-                                        <Link
-                                            href="/"
-                                            className="btn position-relative over-hidden text-white theme-bg theme-border2 text-uppercase mt-20 pt-2 pb-2"
-                                        >
-                                            View Live
-                                        </Link>
+                                        {portfolioInfo?.link && (
+                                            <Link
+                                                href={portfolioInfo?.link}
+                                                target="_blank"
+                                                className="btn position-relative over-hidden text-white theme-bg theme-border2 text-uppercase mt-20 pt-2 pb-2"
+                                            >
+                                                View Live
+                                            </Link>
+                                        )}
                                     </div>
                                 </div>
                             </div>

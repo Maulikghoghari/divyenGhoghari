@@ -28,24 +28,47 @@ export const introFeature = [
 export const portfolioArea = [
     {
         title: "Android App",
-        description: "Hide Pictures & Videos Vault",
+        description: "PGPN PRO Application",
         imgUrl: "/images/portfolio/port-img2.jpg",
         imgLargeUrl: "/images/portfolio/port-img2.jpg",
-        link: "https://play.google.com/store/apps/details?id=gallery.hidepictures.photovault.lockgallery&hl=en_IN",
+        link: "https://play.google.com/store/search?q=PGPN%20PRO&c=apps&hl=en_IN",
+        duration: "2 Weeks",
+        task: "UI/UX, Frontend",
+        details: [
+            "The PGPN catalyzed a positive shift in clinical practices, ensuring that participants apply evidence-based approaches in addressing pediatric nutritional challenges. The PGPN helped participants appreciate the role of nutrition in pediatric health and covered basic knowledge regarding the importance of nutrients in a child’s growth and development, cognition, and immunity.",
+            "Leveraging the invaluable experience and insights gained from PGPN, we are now poised to take a progressive step forward with the introduction of the new program—The PGPN-PRO, a new educational initiative brought to you by MedInscribe, in association with Boston University Chobanian & Avedisian School of Medicine and supported by Nestlé Nutrition Institute. The program will stand as a testament to the commitment to advancing knowledge and promoting optimal nutrition in children.",
+            "PGPN-PRO explores specialized areas and advanced concepts in pediatric nutrition through a unique format of microlearning. It addresses controversial guidelines and equips HCPs with strategies for applying best nutrition practices in their clinical practice."
+        ]
     },
     {
         title: "Android App",
-        description: "PGPN PRO Application",
+        description: "Gallery - Photo Gallery App",
         imgUrl: "/images/portfolio/port-img3.jpg",
-        imgLargeUrl: "/images/portfolio/port-img3-large.jpg",
-        link: "https://play.google.com/store/search?q=PGPN%20PRO&c=apps&hl=en_IN",
+        imgLargeUrl: "/images/portfolio/port-img3.jpg",
+        link: "https://play.google.com/store/apps/details?id=gallery.hidepictures.photovault.lockgallery&hl=en_IN",
+        duration: "4 Weeks",
+        task: "Android Development",
+        details: [
+            "XGallery is an easy-to-use & safe photo gallery and private photo vault that helps you organize and manage photos and videos.",
+            "It's an AI Gallery with powerful features. You can edit photos, use fingerprint, password to lock albums & hide photos, recover deleted photos and clear similar photos.",
+            "XGallery supports viewing files in all formats, JPEG, GIF, PNG, SVG, Panoramic, MP4, MKV, RAW, etc. Free download XGallery - Smart Photo Gallery and let us help you keep everything organized!",
+            "Photo Editor & Video Editor XGallery allows you to crop, rotate, adjust, collage, resize pictures, apply filters/blur and compress videos. It can help you easily edit photos and videos."
+
+        ]
     },
     {
-        title: "UI/UX Design",
-        description: "Routine App Wireframes (Figma)",
-        imgUrl: "/images/portfolio/port-img1.jpg",
-        imgLargeUrl: "/images/portfolio/port-img1-large.jpg",
+        title: "Android App",
+        description: "Low more",
+        imgUrl: "/images/portfolio/port-img1-1.png",
+        imgLargeUrl: "/images/portfolio/port-img1.png",
         link: "https://www.figma.com/design/Gx99nTyJHl1RKciKuaxky4/Routine-App-Wireframes--Copy-?node-id=328-2833&t=CUg7yCdCqOUKwRnd-0",
+        duration: "1 Week",
+        task: "UI/UX Design",
+        details: [
+            "A comprehensive set of wireframes designed for a daily routine and habit tracking application.",
+            "The design focuses on simplicity, ensuring that users can easily add and track their daily habits without friction.",
+            "Through numerous iterations, the layout was optimized for maximum user engagement and readability, sticking to modern design principles with a clean visual hierarchy."
+        ]
     }
 ];
 
